@@ -1,0 +1,486 @@
+body {
+	font-family: arial, helvetica, verdana, sans-serif;
+	background: #f4f3e8;
+}
+
+header, footer, section, aside, nav, article, hgroup, figure, figcaption {
+	display: block;
+}
+
+.skip { display: none; }
+
+#fullpage {
+	margin-left: 0;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: left;
+}
+
+#fullpage a {
+	display: inline-block;
+	color: #000;
+	text-decoration: underline;
+}
+#fullpage a:hover {
+	text-decoration: underline;
+	color: #cc0000;
+}
+#fullpage .menu a:hover {
+	transform: scale(1.1);
+}
+a.help:hover {
+	transform: scale(1.1);
+}
+#fullpage h4 a:hover {
+	text-decoration: underline;
+	background: #eee;
+}
+
+img { margin: 0; padding: 0; border: 0; }
+fieldset { border: solid 1px black; }
+
+/*
+ * Jello Layout (from positioniseverything)
+ * notes:
+ *   min. width of page is 2x body.padding
+ *   expander.margin must be -body.padding
+ *   expander.min-width makes Safari not lose margin
+ *   sizer.width controls how fast additional screen width is utilized
+ *   sizer.max-width controls max extra width utilized
+ *   holly-hack on expander fixes extra stupidity on IE/Mac
+ *   wrapper.width lets %widths inside page work on dumb IE
+ */
+body {
+	margin: 0;
+/*        padding: 0 320px;	*/
+	padding-left: 320px;
+	padding-right: 320px;
+	text-align: center;
+	color: #000;
+	min-height: 100%;
+}
+
+#sizer {
+/*        margin: 0 auto;	*/
+	margin-left: auto;
+	margin-right: auto;
+/*        width: 90%;	*/
+	max-width: 1360px;
+}
+
+#expander {
+/*        margin: 0 -320px;	*/
+	margin-left: -320px;
+	margin-right: -320px;
+	min-width: 640px;
+	position: relative;
+	background: #fff;
+	background: #f4f3e8;
+}
+/* mod. Holly hack \*/
+* html #expander { height: 0; }
+/* */
+
+#wrapper { width: 100%; }
+#wrapper {
+/*        border: 1px solid #666;	*/
+	border-top: 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-table;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* */
+
+/* --- End Jello --- */
+
+
+#masthead {
+	position: relative;
+	margin-bottom: 0;
+	border-bottom: 0;
+	padding-bottom: 0;
+	text-align: left;
+	background-color: #cc0000;
+/*
+	background-image: -ms-linear-gradient(top,transparent,rgba(0,0,0,0.4));
+	background-image: -moz-linear-gradient(transparent,rgba(0,0,0,0.4));
+	background-image: -o-linear-gradient(top,transparent,rgba(0,0,0,0.4));
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,transparent), color-stop(1,rgba(0,0,0,0.4)));
+	background-image: -webkit-linear-gradient(top,transparent,rgba(0,0,0,0.4));
+*/
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.4));
+	background-position: center bottom;
+	background-repeat: repeat-x;
+}
+#masthead a:link { color: #fff; text-decoration: none; }
+#masthead a:visited { color: #fff; text-decoration: none; }
+#masthead a:hover { color: #fff; text-decoration: underline; }
+
+#logo {
+	line-height: 1.5em;
+	font-size: 150%;
+}
+#logo div {
+	margin: 0;
+	padding: 0;
+}
+#logo div a {
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 302px;
+	height: 36px;
+}
+#logo h1 a img {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#logo div a span {
+	display: block;
+	position: absolute;
+	overflow: hidden;
+	font-size: 24px;
+	width: 302px;
+	height: 36px;
+	top: 0;
+	left: 0;
+	color: #fff;
+	z-index: 0;
+	text-indent: 10px;
+}
+
+#asw {
+/* This is all because IE/Mac is CRAP! */
+	padding-top: 35px;
+	padding-bottom: 5px;
+	height: 20px;
+/* Hides from IE-mac \*/
+	height: auto;
+	padding: 0;
+/* */
+}
+#asw div {
+	margin: 0;
+	padding: 0;
+}
+#asw div a {
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 302px;
+	height: 24px;
+}
+#asw div a img {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#asw div a span {
+	display: block;
+	position: absolute;
+	overflow: hidden;
+	width: 302px;
+	height: 20px;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	text-indent: 10px;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 100%;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: #ffffff
+}
+
+#it-old {
+	position: relative;
+	bottom: 18px;
+	right: 5px;
+	text-align: right;
+	color: #fff;
+	margin: -18px 0px;
+}
+#it-ok {
+	position: absolute;
+	top: 18px;
+	right: 5px;
+	text-align: right;
+	color: #fff;
+}
+
+#splat {
+	position: absolute;
+	top: 0;
+	left: 302px;
+}
+#it {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#crumbs {
+/* This is all because IE/Mac is CRAP! */
+	padding-top: 5px;
+	padding-bottom: 5px;
+/* Hides from IE-mac \*/
+	padding: 0;
+	background: #dfbd00;
+	color: #000000;
+	font-size: 75%;
+	text-indent: 10px;
+	margin-bottom: 3px;
+}
+
+#footer {
+	clear: both;
+	margin-top: 30px;
+	padding: 10px;
+/*        border-top: 1px solid #666;	*/
+/*        border-top: 2px solid #c00;	*/
+	text-align: left;
+/*        background: #fff;	*/
+	background: #dbd6c7;
+}
+#footer a:link { color: #000; text-decoration: none; }
+#footer a:visited { color: #000; text-decoration: none; }
+#footer a:hover { color: #000; text-decoration: underline; }
+
+#copyright { font-size: 70%; }
+#timestamp { font-size: 70%; }
+
+input, select, textarea, button {
+	color: #000;
+	background-color: #fff;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+	color: #000;
+	background-color: #fdd;
+}
+
+input.LC {
+	text-transform: lowercase;
+}
+
+input.UC {
+	text-transform: uppercase;
+}
+
+textarea {
+	font-size: 80%;
+}
+
+button {
+	padding: 0;
+}
+
+.error {
+	color: #d00000;
+	margin-left: 1em;
+	font-size: 90%;
+	font-style: italic;
+}
+
+.cte:after {
+	font-size: 80%;
+	font-weight: normal;
+	font-style: italic;
+	content: " (click to edit)";
+}
+
+.hidden {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.lg {
+	font-size: 120%;
+	font-style: normal;
+}
+
+.smit {
+	font-size: 75%;
+	font-style: italic;
+}
+
+.sm {
+	font-size: 75%;
+	font-style: normal;
+}
+
+.it {
+	font-style: italic;
+}
+
+.b {
+	font-weight: bold;
+}
+
+.i {
+	font-style: italic;
+}
+
+.n {
+	font-weight: normal;
+	font-style: normal;
+}
+
+.nobr {
+	white-space: nowrap;
+}
+
+.mono {
+	font-family: Monaco, Lucida Console, Courier New, Courier, monospace;
+}
+
+.code {
+	margin: 5px;
+	border: 1px solid #a8a79d;
+	padding: 5px;
+	background-color: #dbdad0;
+	white-space: pre;
+}
+
+code {
+	font-family: Courier, 'New Courier', monospace;
+	font-size: 12px;
+}
+
+a.help {
+	outline: 0;
+}
+
+a.indexlink {
+	line-height: 140%;
+}
+
+th.r, td.r {
+	text-align: right;
+}
+
+th.l, td.l {
+	text-align: left;
+}
+
+progress {
+	border: 3px;
+	height: 10px;
+	border-radius: 20px;
+}
+progress::-webkit-progress-bar {
+	border: 3px;
+	height: 10px;
+	border-radius: 20px;
+}
+progress::-webkit-progress-value {
+	border: 3px;
+	height: 10px;
+	border-radius: 20px;
+}
+progress::-moz-progress-bar {
+	border: 3px;
+	height: 10px;
+	border-radius: 20px;
+}
+
+img.ui-datepicker-trigger {
+	vertical-align: bottom;     
+	margin-left: 2px;
+	cursor: pointer; 
+} 
+
+/* sortable tables */
+table.tablesorter {
+	background-color: #cdcdcd;
+	margin: 10px 0pt 15px;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #cc0000;
+	padding: 4px;
+	padding-right: 18px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(/img/ts-bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+	color: white;
+	font-weight: normal;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0E6E6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(/img/ts-asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(/img/ts-desc.gif);
+}
+table.tablesorter thead tr .headerSortDown,
+table.tablesorter thead tr .headerSortUp {
+	background-color: #990000;
+}
+
+/* new forked tablesorter ... */
+
+table.tablesorter thead tr .tablesorter-header {
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+	color: white;
+	font-weight: normal;
+}
+table.tablesorter thead tr .tablesorter-headerUnSorted {
+	background-image: url(/img/ts-bg.gif);
+}
+table.tablesorter thead tr .tablesorter-headerAsc {
+	background-image: url(/img/ts-asc.gif);
+}
+table.tablesorter thead tr .tablesorter-headerDesc {
+	background-image: url(/img/ts-desc.gif);
+}
+table.tablesorter thead tr .tablesorter-headerAsc,
+table.tablesorter thead tr .tablesorter-headerDesc {
+	background-color: #990000;
+}
+table.tablesorter thead tr .sorter-false {
+	background-image: none !important;
+	cursor: text !important;
+}
+@media print {
+	.noprint {
+		display: none;
+	}
+}

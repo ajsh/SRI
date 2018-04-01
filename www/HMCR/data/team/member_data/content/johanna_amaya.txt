@@ -1,0 +1,9 @@
+Ms. Amaya received her B.Sc. in Industrial Engineering in Colombia. She got a M.Sc. in Industrial and Systems Engineering, from University of Florida and completed her PhD. in Transportation Engineering at RPI. Her research interests are in the areas of disaster response logistics and urban freight transportation. She has several publications in such areas; has been part of various projects, committees, and panels.  
+Areas of Research
+Disaster response logistics (DRL): DRL response operations and policy recommendations
+The research focuses on understanding the complexity of disaster situations and the requirements of the supply chain to respond. I have conducted research and fieldwork following recent disasters such as Hurricane Sandy (2012) and the earthquakes that devastated Nepal in 2015 and Ecuador in 2016. 
+Modeling: Mathematical programming to model relief distribution after disasters with conditions identified from fieldwork. Research leads to policy recommendations to relief agencies. 
+
+Urban freight transportation systems: Evaluation of initiatives to mitigate negative impacts of freight activity.
+Research includes analysis of impacts of freight policies in urban areas including parking regulations, demand management and agents behavior, among others
+Modeling: Survey design and analysis to identify key aspects generating certain behaviors. Use of discrete choice models and regression analysis. 

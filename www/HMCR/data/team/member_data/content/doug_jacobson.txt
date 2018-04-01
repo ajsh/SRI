@@ -1,0 +1,5 @@
+His primary research focus is in the area of large scale testbeds, which has led to the creation of The Internet-Scale Event and Attack Generation Environment (ISEAGE-pronounced "ice age").  This facility creates a virtual Internet that allows researchers and vendors to test in a "real-life Internet environment" various ways of attacking and various ways/systems of protecting information...
+
+He is also leading an effort to build a state wide cyber range to support training, and cyber exercises.  This project is a joint effort between the State of Iowa, Iowa National Guard, ISU, and the ICN.
+ 
+He working with the state of Iowa, Iowa National Guard, Iowa Homeland Security, FBI, and others to develop the State of Iowa Cyber plan, and to help develop programs and test-beds to increase the security of Iowa and to help in cyber security preparedness.

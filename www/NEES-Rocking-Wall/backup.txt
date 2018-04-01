@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Personnel > Investigation of Nonrectangular Walls Under Multidirectional Loads </title>
+<style media="all" type="text/css">@import "base2.css";</style>
+<script type="text/javascript" src="common/base.js"></script>
+</head> 
+
+<body class="cs0">
+
+<div id="content">
+
+<div id="sitewrap">
+
+<div id="maincontentwrap">
+<div id="siteheader">
+</div>
+
+
+<div id="navwrap1">
+<div id="mainnav">
+<ul>
+
+<li><a href="index.php">Home</a></li>
+<li><a href="summary.php">Summary</a></li>
+<li><a href="personnel.php" class="selected">Personnel</a></li>
+<li><a href="publications.php">Publications</a></li>
+<li><a href="participate.php">Sponsors</a></li>
+<li><a href="contact.php">Contact</a></li>
+
+<!-- QUICK LINK PLACEHOLDER -->
+
+</ul>
+</div>
+</div>
+
+<div id="navwrap2">
+<div id="subnav">
+
+
+</div>
+</div>
+
+
+
+<!-- BEGIN #maincontent -->
+
+<div id="pagehead">
+<a href="#">Personnel</a> 
+</div>
+
+
+
+
+<div id="supleft">
+  
+<!-- LEFT COLUMN CONTENT -->
+
+<a name="pi"></a>
+<h2>Principal Investigators</h2>
+
+<a name="cf"></a>
+<p class="name">Catherine W. French, University of Minnesota</p>
+
+<p><img src="images/french.jpg" alt="Catherine W. French" align="left" class="thumbnail" />Professor and member of the faculty of University of Minnesota since 1984. She received her  BCE from UMN and her MS and Ph.D. from UIUC. Research interests include the behavior of reinforced and prestressed concrete structural systems including effects of earthquake loadings. Other projects currently underway include investigation of lateral stability of precast through-girder pedestrian   bridges, shear strength of prestressed bridge girders, development of rapid replacement bridge systems, and application of self-consolidating concrete (SCC) to precast bridge girders. She is an active member of several professional technical committees including chair of ACI 318 Subcommittee B Reinforcement and Development. </p>
+
+<a name="ss"></a>
+<p class="name">Sri Sritharan, Iowa State University</p>
+
+<p><img src="images/sritharan.jpg" alt="Sri Sritharan" width="150" height="182" align="left" class="thumbnail" />Associate Professor and member of the faculty of Iowa State University since 1999. He received his BS from U of Peradeniya, Sri Lanka, his ME from the University of Auckland, NZ, and his Ph.D. from UCSD. Research interests include the behavior of reinforced and precast concrete structural systems and the development of numerical models to characterize their behavior. Other current projects underway include the affect of temperature on the boundary effects of bridge piles. </p>
+
+<a name="rl"></a>
+<p class="name"> Eric Musselman</p>
+<p><img src="images/image573.jpg" alt="Ricardo R. López-Rodríguez" width="150" height="180" align="left" class="thumbnail" />
+Professor and member of the faculty of UPR-Mayaguez since 1988. He received his BS and ME from UPR-Mayaguez and his Ph.D. from UIUC. Research interests include the effects of hurricanes and earthquakes on reinforced concrete structural systems. He is a member of numerous professional technical committees and is Secretary of Puerto Rico Seismic Commission. </p>
+
+<a name="grad"></a>
+<p class="name">Suzanne Nakaki-Dow, Principal, Nakaki-Bashaw Group, Inc. </p>
+<p><img src="images/personnel/nakaki.jpg" alt="Ricardo R. López-Rodríguez" width="150" height="180" align="left" class="thumbnail" />
+Principal of Nakaki Bashaw Group and a licensed Structural Engineer in the 
+States of California and Oregon, she received her BS and MS degrees from 
+UCLA. Susie has been actively involved in structural research for over 20 
+years, including the design of the NSF PRESSS building tested at UCSD. In 
+addition to her design practice, she facilitates the transfer of technology 
+from research into practice through development of design seminars, 
+participation in code development (including membership on the ACI 318 
+Subcommittee H - Seismic Provisions) as well as consulting to product 
+developers and other engineers to provide information on recent research 
+that can be useful in practice.
+<ul>
+<li>Jian Zhao, Assistant Professor, UW Milwaukee  (not pictured) </li>
+</ul>
+
+<h2>Graduate Students</h2>
+<div class="imglist">
+<div class="imgcontainer">
+<img src="images/personnel/bethbrueggen.jpg" alt="Beth Brueggen" width="150" height="180" /><br />
+Beth Brueggen
+</div>
+<div class="imgcontainer">
+<img src="images/personnel/sriramaaleti.JPG" alt="Sriram Aaleti" width="150" height="180" /><br />
+Sriram Aaleti
+</div>
+<div class="imgcontainer">
+<img src="images/personnel/bentonjohnson.JPG" alt="Benton Johnson" width="150" height="180" /><br  />
+Benton Johnson
+</div>
+<div class="imgcontainer">
+<img src="images/personnel/john-waugh.jpg" alt="Benton Johnson" width="150" height="180" /><br  />
+Jon Waugh
+</div>
+</div>
+
+<!--- paragraph separator -->
+<p class="clear"></p>
+
+<ul>
+<li>Narina Jung (not pictured) </li>
+</ul>
+
+<a name="undergrad"></a>
+<h2>Undergraduate Students</h2>
+<div class="imglist">
+<div class="imgcontainer">
+<img src="images/personnel/angela-and-jake.jpg" alt="Beth Brueggen" width="200" height="180" /><br />
+Vanessa and Jake
+</div>
+<div class="imgcontainer">
+<img src="images/personnel/Helen-and-Danielle.jpg" alt="Sriram Aaleti" width="200" height="180" /><br />
+Helen and Danielle
+</div>
+</div>
+
+<br /></p>
+</div>
+
+		
+<div id="subright">
+  
+<!-- RIGHT COLUMN CONTENT -->
+  
+	<h2>Information on </h2>
+			<ul>
+				<li><a href="#pi">Principal Investigators</a></li>
+				<li><a href="#grad">Graduate Students</a>
+				<li><a href="#undergrad">Undergraduate Students</a></li>
+			</ul>  
+</div>
+
+
+<!-- END #maincontent -->
+
+
+<!-- BEGIN #footer -->
+<!-- This is the footer include file for all twall project pages -->
+
+<div id="footer">
+<div id="foottext">
+<div style="margin-bottom:5px;">
+This site is supported by the George E. Brown, Jr. Network for Earthquake Engineering
+Simulation (NEES) Program of the National Science Foundation under Award Number CMS-0324504
+</div>
+<!-- You can add more text by modifying the section below -->
+<!--
+<span style="color:#999999;"><em>Site hosted by the <a href="http://nees.umn.edu" style="color:#999999;">University of Minnesota</a>.</em></span>
+-->
+</div>
+<div id="footorg" style="margin-top:5px;"	>
+<table cellpadding="0" cellspacing="0" border="0">
+<tr><td nowrap style="padding-right:0;">
+<a href="http://www.nsf.gov/" title="National Science Foundation (NSF)" onmouseover="swapImage('org-nsf','','common/images/footer_org-nsf_sel.jpg',1)" onmouseout="swapImgRestore()" target="_blank"><img src="common/images/footer_org-nsf.jpg" name="org-nsf" width="58" height="58" border="0" id="org-nsf" alt="National Science Foundation (NSF)" /></a></td>
+<td style="padding-left:5px;" valign="middle">
+<a href="http://www.nees.org/" title="NEES Consortium, Inc." onmouseover="swapImage('org-nees','','common/images/footer_org-neesorg_sel.jpg',1)" onmouseout="swapImgRestore()" target="_blank"><img src="common/images/footer_org-neesorg.jpg" name="org-nees" width="40" height="58" border="0" id="org-nees" alt="NEES Consortium, Inc." /></a>
+</td>
+<td style="padding-left:0px;padding-top:6px;" valign="middle">
+<a href="http://www.umn.edu/" title="University of Minnesota" onmouseover="swapImage('edu-umn','','common/images/footer_edu-umn_sel.jpg',1)" onmouseout="swapImgRestore()" target="_blank"><img src="common/images/footer_edu-umn.jpg" name="edu-umn" width="58" height="58" border="0" id="edu-umn" alt="University of Minnesota" /></a>
+</td>
+
+</tr>
+</table>
+</div>
+</div>
+<!-- END #footer -->
+
+</div>
+</div>
+
+
+</body>
+</html>

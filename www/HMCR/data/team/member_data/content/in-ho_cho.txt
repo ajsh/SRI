@@ -1,0 +1,2 @@
+High-precision infrastructure simulation using parallel multiscale finite element analysis. Big data-oriented engineering using computational statistics and machine learning algorithm. Specialized in incomplete data-curing, data-squashing, data-driven prediction.
+In-depth simulations of complex infrastructure at millimeter length scale are incorporated into the large-scale (city or state-wide) assessment of infrastructure population by using numerical moment matching technique. 

@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Home > UHPC </title>
+<meta name="keywords" content="Design of UHPC Structural Members, Iowa state University, Sri Sritharan">
+<meta name="description" content="title: Lessons Learned and ASTM Test Requirements, Designer: Vikesh Reddy Nallamilli"> 
+<meta http-equiv="content-type" content="text/html"; charset=UTF-8">
+<link rel="shortcut icon" href="http://sri.cce.iastate.edu/images/favicon.ico" type="image/x-icon" />
+<style media="all" type="text/css">@import "base2.css";</style>
+<style media="all" type="text/css">@import "common/mast/main.css";</style>
+<script src="scripts/js-image-slider.js" type="text/javascript"></script>
+<script type="text/javascript" src="common/base.js"></script>
+<script type="text/javascript" src="scripts/prototype.lite.js"></script>
+<script type="text/javascript" src="scripts/moo.fx.js"></script>
+<script type="text/javascript" src="scripts/moo.fx.pack.js"></script>
+<script type="text/javascript" src="scripts/moo.dom.js"></script>
+<script type="text/javascript" src="scripts/slideshow.js"></script>
+<script type="text/javascript">
+
+function date_time(id)
+{
+        date = new Date;
+        year = date.getFullYear();
+        month = date.getMonth();
+        months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'Jully', 'August', 'September', 'October', 'November', 'December');
+        d = date.getDate();
+        day = date.getDay();
+        days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+        h = date.getHours();
+        if(h<10)
+        {
+                h = "0"+h;
+        }
+        m = date.getMinutes();
+        if(m<10)
+        {
+                m = "0"+m;
+        }
+        s = date.getSeconds();
+        if(s<10)
+        {
+                s = "0"+s;
+        }
+        result = ''+days[day]+' '+months[month]+' '+d+' '+year+' '+h+':'+m+':'+s;
+        document.getElementById(id).innerHTML = result;
+        setTimeout('date_time("'+id+'");','1000');
+        return true;
+}
+</script>
+<!-- slide show -->
+<style media="all" type="text/css">
+	
+	
+	#display {
+		margin: 7px 0 0 10px;
+	}
+
+	
+	#sliderFrame, #sliderFrame div {
+    box-sizing: content-box;
+}
+#sliderFrame 
+{
+		position:relative;
+		width: 295px;
+		height: 145px;
+		float: left;
+		margin-right: 20px;
+}
+
+#slider{
+    width:290px;height:145px;/* Must be the same size as the slider images */
+}
+#slider div.navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    font-size:0;color:White;/*hide the index number in the bullet element*/
+    background:transparent url(bullet.png) no-repeat 0 0;
+    display:inline-block; *display:inline; zoom:1;
+    overflow:hidden;cursor:pointer;
+    margin:0 6px;/* set distance between each bullet*/
+}
+	
+	#description {
+		color: #666;
+		text-align:center;
+		padding: 9px 0 5px 0;
+		font-size: 11px;
+	}
+	
+	.btnlnk {
+		border: 0;
+		margin: 0;
+		padding: 5px 0 0 0;
+</style>
+
+<script type="text/javascript">
+window.onload = function() {
+	var slideshow = new fx.SlideShow('slideContainer', {duration: 2000, interval: 8000});
+	slideshow.start();
+};
+  $(window).load(function() {
+    $('.flexslider').flexslider({slideshow: false});
+
+  });
+
+</script>
+
+</head> 
+
+<body class="cs0">
+
+
+
+<div id="content">
+
+<div id="sitewrap">
+
+<div id="maincontentwrap">
+<div id="siteheader">
+</div>
+
+
+<div id="navwrap1">
+<div id="mainnav">
+<ul>
+
+<li><a href="index.htm" class="selected"><i>Home</i></a></li>
+<li><a href="summary.htm"><i>Summary</i></a></li>
+<li><a href="uhpc.htm"><i>UHPC</i></a></li>
+<li><a href="applications.htm"><i>Applications</i></a></li>
+<li><a href="publications.htm"><i>Publications</i></a></li>
+<li><a href="sponsors.htm"><i>Sponsors</i></a></li>
+<li><a href="contact.htm"><i>Contact</i></a></li>
+<li><a><i><span id="date_time"></i></span>
+<script type="text/javascript">window.onload = date_time('date_time');</script></a></li>
+<!-- QUICK LINK PLACEHOLDER -->
+
+</ul>
+</div>
+</div>
+<!-- 
+<div id="navwrap2">
+<div id="subnav">
+
+<ul>
+
+<li><a href="#">Calendar</a></li>
+<li><a href="#">Announcements</a></li>
+</ul>
+
+</div>
+</div>
+-->
+
+
+<!-- BEGIN #maincontent -->
+
+<div id="pagehead" style="
+    padding-left: 20px;
+    padding-right: 20px;
+">
+
+	
+	<div id="sliderFrame" style="width: 916px !important;height:300px !important;margin-bottom:20px;border-style: solid;
+    border-width: 5px">
+        <div id="slider" style="width: 916px !important;height:300px !important;">
+		<img src="images/m1.png" class="slide" width="916" height="250" alt="" />
+		<img src="images/m2.png" width="916" height="250" class="slide" alt="" />
+		<img src="images/m3.png" width="916" height="250" class="slide" alt="" />
+		<img src="images/m4.png" width="916" height="250" class="slide" alt="" />
+		<img src="images/m5.png" width="916" height="250" class="slide" alt="" />
+		<img src="images/m6.png" width="916" height="250" class="slide" alt="" />
+		<img src="images/m7.png" width="916" height="250" class="slide" alt="" />
+		<img src="images/m8.png" width="916" height="250" class="slide" alt="" />
+		<img src="images/m9.png" width="916" height="250" class="slide" alt="" />
+		<img src="images/m10.png" width="916" height="250" class="slide" alt="" />
+		<img src="images/m11.png" width="916" height="250" class="slide" alt="" />
+		<img src="images/m12.png" width="916" height="250" class="slide" alt="" />
+        </div>
+    </div>
+    
+  
+<div style="text-align:justify;width: 916px !important;"><i>Old conventional ways have given way to alternative geometries and/or unique properties of the UHPC leading to more efficient structural design solutions...</i> </div>
+<a href="summary.htm" title="Learn more about this project" class="btnlnk"><img src="images/rm.png" alt="Learn more about this project" id="btn-more" class="btnlnk" /></a>
+
+ <!-- <a href="#" class="parent">MainNav1</a> / <a href="#">SubNav1 </a> -->
+<p class="clear"></p>
+</div>
+
+
+
+
+<div id="supleft">
+  
+<!-- LEFT COLUMN CONTENT -->
+
+<!--<p><img src="/images/about-neesit.jpg" class="block" width="400" height="200" border="0" alt="NEESit, located at the University of California-San Diego" /></p>
+-->
+  
+	 
+	<!--h2><i> Scope: </i></h2-->
+	<!--p><div style="text-align:justify !important;text-justify:inter-word !important;">The overall scope of this project is to facilitate widespread deployment of life cycle cost-competitive tall towers with a hub height of at least 120m (394 ft) which eliminates the transportation and logistics constraints, thereby reducing the levelized cost of energy (LCOE). The Hexcrete concept will form the basis for this development.</div></p-->
+	
+	<h2><i>Introduction: </i></h2>
+	<p><div style="text-align:justify !important;text-justify:inter-word !important;">Ultra-High Performance Concrete (UHPC) is a Reactive Powder Concrete (RPC) mixture combined with high strength steel fibers. The quantity of superplasticizer, a high-range water-reducing admixture is the weight of the solid fraction while the liquid fraction is included in the weight of the water. Use of densely packed filler materials, such as silica fume, combined with small particle sizes that are typically kept below 0.6 mm creates a homogeneous, nearly impermeable UHPC matrix with more uniformly dispersed cement grains.</div></p>
+	<p><div style="text-align:justify !important;text-justify:inter-word !important;">UHPC has significant advantages over normal concrete and high performance concrete (HPC) in both strength and durability; compressive strength of normal concrete is typically less than 50 MPa whereas the corresponding value for HPC is in the range of 50 to 100 MPa. With the compressive strength as high as 180 MPa, capillary porosity as low as 1.5 percent and absence of interconnected pores that permit migration of water and chlorides, UHPC is ideally suited for bridge applications even in harsh environments. The lack of interconnected pores which is a feature of this class of concrete due to interconnected pores being blocked during hydration cement. The enhanced durability properties have primarily motivated the use of UHPC in bridge applications in the U.S., starting with several of them in the state of Iowa—a state with one of the highest number of structurally deficient bridges. The unique properties of UHPC have also promoted the use of UHPC in field applications specifically for establishing connections between precast members made from normal concrete, HPC or UHPC. Besides the durability benefits, a main advantage of UHPC connections is that they enable development of high bond strength due to its high compressive strength, allowing steel reinforcement to be anchored over a relatively short anchorage length and reduction in clear cover and spacing between reinforcing steel.</div></p>
+	<p><div style="text-align:justify !important;text-justify:inter-word !important;">The cost of UHPC is relatively high compared to normal concrete and high performance concrete (HPC). Energy demand for producing one cubic meter of UHPC has also been cited to be twice that needed for producing one-cubic meter of normal concrete due to the use of the high amount of cement in UHPC. The increased emphasis in constructing sustainable structures also suggests any negative impact to the environment due to the use of UHPC should be given consideration. Therefore, the application of UHPC for structural design must optimize the use of the material and even perhaps limit their use to members that are more susceptible to structural and/or environmental damage. The enhanced properties of UHPC combined with innovative design concepts can result in the UHPC members requiring less than 50% material of the equivalent normal concrete members, which in turn would allow a designer to utilize UHPC and produce a sustainable structural design with reduced impact to the environment. This was successfully demonstrated by Schmidt and Teichmann in the Gaertnerplatz bridge project in Kassel, Germany. By exploring suitable solutions for the 136-m long Gaertnerplatz pedestrian bridge, Schmidt and Teichmann demonstrated that the environmental impact of the UHPC solution would be less than that of normal concrete. This was possible because of the use of low amounts of material in the UHPC design in comparison to conventional concrete designs, resulting in total weight of the UHPC bridge being more than 50% less than that for the normal concrete solution.</div></p>
+	<p><div style="text-align:justify !important;text-justify:inter-word !important;">Standardizing the tests, and thereby establishing UHPC properties, are expected to minimize variations in the material properties and help establish appropriate design models for finding characteristics of members such as flexural strength, flexural cracking potential and ductility. Therefore, in order to establish the needed ASTM testing standards for key UHPC design parameters, its properties are first presented, followed by different examples of applications emphasizing what aspects largely influenced their final design and construction.  Based on these controlling design aspects, ASTM test requirements are also suggested.</div></p>
+	
+<div id="pagecount" align="center">
+<script type="text/javascript" src="//rc.revolvermaps.com/0/0/6.js?i=2hxid3ixdnr&amp;m=7&amp;s=320&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
+<p style="align:middle;">Page Visited</p>
+	</div>
+	</div>
+		
+<div id="subright" style="
+    width: 240px;
+    height: 385px;
+">
+  
+<!-- RIGHT COLUMN CONTENT -->
+  <h2><i>Projects</i></h2>
+  
+  <ul><!-- style="text-decoration:none;list-style:none;"-->
+  <li><i><a href ="http://sri.cce.iastate.edu/abc-seismic/"target="_blank">Accelerated Bridge Construction (ABC) for Seismic Regions</a></i></li>
+  <br>
+  <li><i><a href="http://sri.cce.iastate.edu/nees-rocking-wall/"target="_blank">NEESR-CR: Rocking Wall Project for Seismic Resilient Structures</a></i></li>
+  <br>
+  <li><i><a href="http://sri.cce.iastate.edu/camber/"target="_blank">Improving Accuracy of the Camber Predictions for Precast Prestressed Concrete Bridge Girders</a></i></li>
+  <br>
+  <li><i><a href="http://sri.cce.iastate.edu/hexcrete/"target="_blank">Hexcrete Tower for Harvesting Wind Energy at Taller Hub Heights</a></i></li>
+  </ul>
+</div>
+
+
+<!-- END #maincontent -->
+
+
+<!-- BEGIN #footer -->
+<!-- This is the footer include file for all twall project pages -->
+
+ <div class="clear"></div>
+        <div id="footer">
+          <a href="index.htm">Home</a> | <span><a href=
+          "summary.htm">Summary</a></span> | <span><a href=
+          "UHPC.htm">UHPC</a></span> | <span><a href=
+          "applications.htm">Applications</a></span> |  <span><a href=
+          "publications.htm">Publications</a></span> | <span><a href=
+          "sponsors.htm">Sponsors</a></span> | <span><a href=
+		  "contact.htm">Contact</a></span>
+        </div>
+</div>
+</div>
+		
+
+</body>
+</html>
+	

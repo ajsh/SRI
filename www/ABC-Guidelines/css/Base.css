@@ -1,0 +1,227 @@
+
+header
+{
+/*background-image: url("../Images/3.jpg");*/
+background-color: #660000;
+ width: auto;
+ color:#ffffff;
+ height:auto;
+ border-bottom: 10px solid #bea575;
+ font-family: 'Josefin Slab', serif;
+ font-size:30px;
+ 
+ padding-bottom:50px; 
+ padding-top:25px;
+
+ text-decoration: underline;
+ -moz-text-decoration-color:#bea575 ;
+
+
+}
+div.dataTables_wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+/*Navigation Bar*/
+.navbar-default
+{
+ background-color:black;
+  border:#585858;
+  font-family: 'Josefin Slab', serif;
+ font-size:20px;
+ border-radius: 0px;
+ padding-top: 0px;
+  padding-bottom: -20px;
+
+/* margin-top: 50px;*/
+ height:auto;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #000000;
+    background-color:#bea575;
+    font-weight
+    
+}
+.navbar-default .navbar-nav>li>a 
+{
+	display: block;
+ color:#bea575;
+  margin:#585858;
+  font-weight: bold;
+ 
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:#bea575;
+	display:block;
+  font-weight: bold;
+}
+.dropdown-menu>li>a {
+	  font-family: 'Josefin Slab', serif;
+    font-size:20px;
+    background-color: #bea575;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #000000;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.dropdown-menu>li>a:hover {
+	color:#bea575;
+display:block;
+
+}
+
+
+.breadcrumb
+{
+ /* background-image: url("Y:/www/ABC-Guidelines/Images/3.jpg");*/
+ background-color:#000000;
+ align:center;
+ padding-top:15px;
+ padding-bottom: 15px;
+ margin-bottom: 0px;
+ border-top: 4px solid black;
+ color:#bea575;
+ border-radius: 0;
+  font-family: 'Josefin Slab', serif;
+ font-size:20px;
+}
+a{
+  color:#bea575;
+}
+body 
+{
+	background-color: #ffffff;
+}
+div.Grout
+{
+ font-family: 'Josefin Slab', serif;
+ font-size:35px;
+ /*padding-left: 132px;*/
+ color:#bea575;
+}
+div.Grout1
+{
+ font-family: 'Josefin Slab', serif;
+ font-size:35px;
+ 
+ color:#bea575;
+}
+
+div.introduction
+{
+ font-family: 'Josefin Slab', serif;
+ font-size:30px;
+ /*padding-left: 132px;*/
+  color:#bea575;	
+}
+div.Intro
+{
+ font-family: 'Josefin Slab', serif;
+ font-size:20px;
+ /*padding-left: 132px;*/
+ text-align: justify;
+ font-weight:bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom:10px;
+    font-family: 'Josefin Slab', serif;
+ 	  font-size:20px;
+    font-weight:500;
+    background-color: #bea575;
+    color:#ffffff;
+}
+div.sub
+{
+	color:#000000;
+	background-color:none;
+  border-color:#bea575; 
+	font-family: 'Josefin Slab', serif;
+ 	font-size:20px;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	padding-right: 10px;
+ 	margin-left: 5px;
+ 	margin-right: 5px;
+ 	display: inline-block;
+  font-weight: bold;
+}
+div.DataSheet
+{
+ font-family: 'Josefin Slab', serif;
+ font-size:20px;
+ padding-left:18px;
+ color:#000000;	
+ font-weight:500;
+ 
+ font-weight: bold;
+}
+.table-responsive 
+{   
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-x: auto;   
+    overflow-y: hidden;     
+     font-family: 'Josefin Slab', serif;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #000000; 
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+div.solid 
+{
+  border-style: solid;
+  color:#660000;
+  font-family: 'Josefin Slab', serif;
+  border-radius: 10px;
+
+}
+div.Heading
+{
+ font-family: 'Josefin Slab', serif;
+ font-size:20px;
+ /*padding-left: 132px;*/
+ /*padding-right: 132px;*/
+ color:#000000;
+}
+.Heading thead
+{
+  color:#bea575;
+  background:#DCDCDC;
+}
+div.SideTab
+{
+   color:#ffffff;
+ 
+}
+div.SideTab1
+{
+   color:#ffffff;
+   align-items: center;
+ 
+}
+div.color
+{
+  color:#cc0000;
+}
+div.color1
+{
+  color:#cc0000;
+   font-size:25px;
+   /*padding-left: 150px;*/
+}

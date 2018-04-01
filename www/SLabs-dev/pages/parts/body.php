@@ -1,0 +1,16 @@
+<?php
+require_once 'header.php';
+require_once 'nav.php';
+require_once 'main.php';
+require_once 'footer.php';
+
+function printBody($page){
+	echo '<body>';
+    getHeader($page);
+    getNav($page);
+	getBody($page);
+	getFooter($page);
+	echo '</body>';
+
+}
+?>

@@ -1,0 +1,5 @@
+With methods from Control, Optimization, Statistical Machine Learning, and Artificial Intelligence, I develop automation and human-in-the-loop decision support systems for:
+- Air Traffic Management (ATM)
+- Airline Operations
+- UAS Traffic Management (UTM)
+- eVTOL On Demand Air Mobility (ODM)
